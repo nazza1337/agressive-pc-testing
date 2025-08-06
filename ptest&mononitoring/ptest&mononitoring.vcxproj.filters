@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{b7017036-8ada-408e-936c-27f91d2aa30c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\bohki">
+      <UniqueIdentifier>{9d433bfe-e069-45b0-9571-65b4c12986a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\deti">
+      <UniqueIdentifier>{cec1ea96-db07-407e-aaa7-7ec1633379bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="load_workers.cpp">
+      <Filter>Main\deti</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>Main\deti</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main\deti</Filter>
+    </ClCompile>
+    <ClCompile Include="gpu_load_controller.cpp">
+      <Filter>Main\deti</Filter>
+    </ClCompile>
+    <ClCompile Include="temperature_monitor.cpp">
+      <Filter>Main\deti</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gpu_load_controller.h">
+      <Filter>Main\bohki</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>Main\bohki</Filter>
+    </ClInclude>
+    <ClInclude Include="load_workers.h">
+      <Filter>Main\bohki</Filter>
+    </ClInclude>
+    <ClInclude Include="temperature_monitor.h">
+      <Filter>Main\bohki</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
